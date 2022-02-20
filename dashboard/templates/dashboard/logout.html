@@ -1,0 +1,17 @@
+
+
+
+{% extends 'account/base.html' %} 
+{% load static %}
+{% block content %}
+<div class="border-top pt-3 text-center">
+    <h2>You are logged Out</h2>
+   
+   <small class="text-muted"
+      ><a class="btn btn-danger" href="{% url 'account_login' %}">Log In Again</a>
+    </small>
+   <small class="text-muted"
+      ><a class="btn btn-danger" href="{% url 'account_logout' %}">Logout</a>
+    </small>
+  </div>
+{% endblock content %}
