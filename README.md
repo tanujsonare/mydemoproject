@@ -1,0 +1,2 @@
+# mydemoproject
+ using all auth
